@@ -1,0 +1,103 @@
+/* Main section */
+body {
+  background-color: #3cc7d1;
+  font-family: 'Kumbh Sans', sans-serif;
+  height: 100%;
+  width: 99%;
+}
+.background-top {
+  left: -245px;
+  top: -489px;
+}
+.background-bottom {
+  bottom: -489px;
+  right: -245px;
+}
+
+/* Cards */
+.card-container {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.08);
+  box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.08);
+  height: 380px;
+  margin: 200px auto;
+  position: relative;
+  width: 350px;
+  z-index: 1;
+}
+/* Card header */
+.card-header-img {
+  width: 100%;
+}
+.card-user-img {
+  border-color: white;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  left: 127px;
+  outline-style: none;
+  top: 92px;
+}
+/* Card body */
+.card-body {
+  text-align: center;
+}
+.card-top-underline {
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: lightgray;
+  width: 100%;
+}
+.card-body-top {
+  margin: 70px 45px 0;
+}
+.user-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+.user-age {
+  font-size: 18px;
+}
+.user-city {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.card-body-bottom {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.card-bottom-cell {
+  padding-top: 30px;
+}
+.card-bottom {
+  font-size: 18px;
+  font-weight: 700;
+}
+.card-bottom-subtitle {
+    font-size: 12px;
+    font-weight: 400;
+}
+/* Global modifiers */
+.color-gray {
+  color: gray;
+}
+.pos-abs {
+  position: absolute;
+}
+.hidden{
+  overflow: hidden;
+}
+
+/* Attributions */
+.attribution {
+  bottom: 0;
+  font-size: 11px; text-align: center;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
